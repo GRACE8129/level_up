@@ -1,0 +1,224 @@
+.subscribe-button {
+  background-color: rgb(204, 0, 0);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opasity 0.15s;
+  
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+
+.join-button:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.uber-button {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 8px;
+  transition: opacity 0.15s;
+
+}
+
+.uber-button:hover {
+  opacity: 0.8;
+}
+
+
+.Amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.Amazon-button:hover {
+  background-color: rgba(245, 205, 6, 0.911);
+}
+
+.GitHub-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+
+}
+
+.GitHub-button:hover {
+  box-shadow: 5px 5px 15px rgba(0, 100, 0, 0.15);
+}
+
+.box {
+  display: inline;
+  margin: 10px, 8px;
+  background-color: white;
+
+}
+
+.Bootstrap-1 {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.Bootstrap-1:hover {
+  background-color: rgb(72, 45, 113);
+}
+
+.Bootstrap-2 {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-width: 1px;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-radius: 4px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.Bootstrap-2:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+
+.box-2 {
+  margin: 8px;
+}
+
+.Linkedin-1 {
+  background-color: rgb(10, 102, 194);
+  color: rgb(195, 226, 240);
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.Linkedin-1:hover{
+  background-color:rgb(29, 75, 121);
+} 
+
+.Linkedin-2 {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 1px;
+  border-color: rgb(134, 142, 152);
+  border-style: solid;
+  border-radius: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s, border-color 0.15s, border-style 0.15s;
+
+}
+
+.Linkedin-2:hover {
+  background-color: rgb(190, 216, 245);
+  border-width: 2px;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+}

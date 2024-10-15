@@ -1,0 +1,63 @@
+  .Amazon-website {
+    color: rgb(0, 113, 133);
+    font-weight: bold;
+    transition: color 0.15s;
+  }
+
+  .Amazon-website:hover {
+    color: rgb(179, 112, 13);
+  }
+
+  .title{
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+
+  }
+
+  .cart {
+    background-color: rgb(255, 216, 20);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+  }
+
+  .cart:hover {
+    background-color: rgb(234, 196, 7);
+  }
+
+  .cart:active {
+    opacity: 0.6;
+  }
+
+  .Buy {
+    background-color: rgb(255, 164, 28);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+
+  .Buy:hover {
+    background-color: rgb(254, 155, 6);
+  }
+
+  .Buy:active {
+    opacity: 0.6;
+  }
