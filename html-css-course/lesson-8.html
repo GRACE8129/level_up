@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 8</title>
+    <style>
+      .name {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .email {
+        display: block;
+        margin-bottom: 50px;
+      }
+
+      .service {
+        display: flex;
+        align-items: middle;
+        margin-bottom: 50px;
+        
+      }
+
+      .thanks {
+        width: 200px;
+  
+      }
+
+      .yes, .no {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+      }
+
+      .logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+
+      .google {
+        object-fit: contain;
+        object-position:center ;
+      }
+
+      .url {
+        width: 400px;
+        font-size: 12px;
+        color: rgb(91, 85, 85);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 20px;
+        padding-left: 10px;
+        margin-top: 10px;
+        border: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .go {
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+        margin-top: 20px;
+        border: none;
+      }
+      
+      .luck {
+        color: black;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 10px;
+        border: none;
+      }
+
+
+      .sign-form {
+        margin-bottom: 50px;
+      }
+
+      .first, .sec {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 120px
+
+      }
+
+      
+      .mail{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 260px
+
+      }
+
+      .up {
+        background-color: rgb(69, 69, 234);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 115px;
+        padding-left: 115px;
+        border-radius: 8px;
+
+      }
+
+      .uber {
+        margin-bottom: 50px;
+
+      }
+
+      .ride {
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .pick {
+        display: block;
+        background-color: rgb(222, 220, 220);
+        color: gray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        width: 250px;
+        border-radius: 2px;
+        margin-bottom: 5px;
+      }
+
+
+      .dest {
+        display: block;
+        background-color: rgb(222, 220, 220);
+        color: gray;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        width: 250px;
+        border-radius: 2px;
+        margin-bottom: 20px;
+      }
+
+      .request {
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+      }
+
+      .later {
+        background-color: white;
+        color: black;
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="Name" class="name">
+    <input type="text" placeholder="Email" class="email"> 
+    <br>
+    <div class="service">
+      <p class="thanks">Thanks for chatting with our customer support. 
+        Would you like to take our quick survey?</p>
+        <button class="yes">Yes</button>
+        <button class="no">No</button>
+    </div>
+
+    <div class="logo">
+      <img src="google.jpeg" class="google">
+      <input type="text" placeholder="Search Google or type a URL" class="url">
+      <div>
+        <button class="go"> Google Search</button>
+      <button class="luck"> i'm Feeling Lucky</button>
+      </div>
+    </div>
+
+    <div class="sign-form">
+      <input type="text" placeholder="First name" class="first">
+      <input type="text" placeholder="Second name" class="sec">
+      <input type="text" placeholder="Email" class="mail">
+      <button class="up">Sign Up</button>
+    </div>
+
+    <div class="uber">
+      <p class="ride">Request a ride now</p>
+      <input type="text" placeholder="Enter pickup location" class="pick">
+      <input type="text" placeholder="Enter destination" class="dest">
+      <button class="request">Request now</button>
+      <button class="later">Schedule for later</button>
+
+    </div>
+
+  </body>
+</html>

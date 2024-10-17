@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      p {
+        font-family: roboto, Arial;
+      }
+
+      .general {
+        display: flex;
+        vertical-align: middle;
+        border: 50px;
+        border-width: 2px;
+        border-style: solid;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-left: 10px
+      }
+      
+      .pic-1 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        object-fit: cover;
+        object-position: left;
+        margin-top: 20px
+      }
+
+      .text {
+        line-height: 7px;
+        padding-left: 10px;
+      }
+
+
+      .oli {
+        font-weight: bold;
+      }
+
+      .cat {
+        color: gray;
+      }
+
+      .pop {
+        color: gray;
+        font-size: 13px;
+      }
+
+      .follow {
+        background-color: blue;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;
+        margin-left: 150px;
+        margin-top: 20px;
+      }
+    </style>
+    <title>
+      Nested Layouts Techniques
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+    wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+    <body>
+      <div class="general">
+        <div>
+          <img src="thumbnail-2.webp" class="pic-1">
+        </div>
+        <div class="text">
+          <p class="oli">Oliver</p>
+          <p class="cat">the cat</p>
+          <p class="pop">Popular</p>
+        </div>
+        <div>
+          <button class="follow">Follow</button>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
