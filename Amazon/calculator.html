@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <form>
+          <div>
+            <input type="text" id="display" class="display" />
+          </div>
+          <div>
+            <button onclick="addToCalculation('1')">1</button>
+            <button onclick="addToCalculation('2')">2</button>
+            <button onclick="addToCalculation('3')">3</button>
+            <button onclick="addToCalculation('+')" class="orange-button">
+              +
+            </button>
+          </div>
+
+          <div>
+            <button onclick="addToCalculation('4')">4</button>
+            <button onclick="addToCalculation('5')">5</button>
+            <button onclick="addToCalculation('6')">6</button>
+            <button onclick="addToCalculation('-')" class="orange-button">
+              -
+            </button>
+          </div>
+
+          <div>
+            <button onclick="addToCalculation('7')">7</button>
+            <button onclick="addToCalculation('8')">8</button>
+            <button onclick="addToCalculation('9')">9</button>
+            <button onclick="addToCalculation('*')" class="orange-button">
+              *
+            </button>
+          </div>
+
+          <div>
+            <button onclick="addToCalculation('0')">0</button>
+            <button onclick="addToCalculation('.')">.</button>
+            <button onclick="calculate('=')">=</button>
+            <button onclick="addToCalculation('/')" class="orange-button">
+              /
+            </button>
+          </div>
+
+          <div>
+            <button onclick="addToCalculation('00')">00</button>
+            <button onclick="clearCalculation()">AC</button>
+            <button onclick="delCalculation()">Del</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      const display = document.getElementById("display");
+      function addToCalculation(value) {
+        event.preventDefault();
+        // event.preventDefault is added because form tag was used and form has the tentency to clear off immediately after input so this code is used to prevent it from clearing immediately
+        display.value += value;
+      }
+
+      function calculate() {
+        event.preventDefault();
+        try {
+          display.value = eval(display.value);
+        } catch (err) {
+          display.value = "Error";
+        }
+      }
+
+      function clearCalculation() {
+        event.preventDefault();
+        display.value = "";
+      }
+
+      function delCalculation() {
+        event.preventDefault();
+        display.value = display.value.slice(0, -1);
+      }
+    </script>
+  </body>
+</html>

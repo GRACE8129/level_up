@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tables-Forms</title>
+  </head>
+  <body>
+    <!-- table-->
+    <!--tr is for table row-->
+    <!--th for table header-->
+    <!--td for table content-->
+    <!--colspan for marging columes together-->
+    <!--rowspan for marging rows together-->
+    <table style border="1">
+      <caption>
+        My student data
+      </caption>
+
+      <tr bgcolor="grey" width="700">
+        <th width="100">names</th>
+        <th width="100">institution</th>
+        <th width="100">cohort</th>
+        <th width="100">track</th>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <td colspan="2">Evi</td>
+        <!-- <td>Axia</td> -->
+        <td>7</td>
+        <td>SE</td>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <td>Samson</td>
+        <td>Axia</td>
+        <td>6</td>
+        <td>BE</td>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <td>Micheal</td>
+        <td>Axia</td>
+        <td>6</td>
+        <td>SE</td>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <td>Evi</td>
+        <td>Axia</td>
+        <td>5</td>
+        <td>devops</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+
+    <table style border="1">
+      <caption>
+        My student data
+      </caption>
+
+      <tr bgcolor="lightgrey" width="700">
+        <th width="100">names</th>
+        <th width="100">institution</th>
+        <th width="100">cohort</th>
+        <th width="100">track</th>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <td rowspan="2">Evi</td>
+        <td>Axia</td>
+        <td>7</td>
+        <td>SE</td>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <!-- <td>Samson</td> -->
+        <td>Axia</td>
+        <td>6</td>
+        <td>BE</td>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <td>Micheal</td>
+        <td>Axia</td>
+        <td>6</td>
+        <td>SE</td>
+      </tr>
+
+      <tr bgcolor="lightgrey" align="center">
+        <td>Evi</td>
+        <td>Axia</td>
+        <td>5</td>
+        <td>devops</td>
+      </tr>
+    </table>
+
+    <h1>forms</h1>
+    <form>
+      <div>
+        <label for="name">First name : </label>
+        <input type="text" name="fname" placeholder="Enter your first name" />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="name">last name:</label>
+        <input type="text" name="lname" placeholder="Enter your last name" />
+      </div>
+
+      <br />
+      <div>
+        <label for="name">Email:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email address"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="phone">Telephone no:</label>
+        <input type="tel" name="email" placeholder="Enter your phone number" />
+      </div>
+
+      <br />
+      <div>
+        <label for="bdate">birthdate:</label>
+        <input
+          type="date"
+          name="bdate"
+          placeholder="Enter your date of birth"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="quantity">quantity:</label>
+        <input type="number" name="quantity" min="0" max="99" value="1" />
+      </div>
+
+      <br />
+      <div>
+        <label for="bdate">birthdate:</label>
+        <input
+          type="date"
+          name="bdate"
+          placeholder="Enter your date of birth"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="tite">title:</label>
+        <label>Mr.</label>
+        <input type="radio" id="Mr." name="title" value="Mr." />
+
+        <label>Mrs.</label>
+        <input type="radio" id="Mrs." name="title" value="Mrs." />
+
+        <label>phD.</label>
+        <input type="radio" id="phD." name="title" value="phD." />
+      </div>
+
+      <br />
+      <label for="payment">payment:</label>
+      <select id="payment" name="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="checkbox">checkbox:</label>
+      <input type="checkbox" id="checkbox" name="checkbox" />
+      <br />
+
+      <br />
+      <div>
+        <label for="pass">password:</label>
+        <input
+          type="password"
+          name="pass"
+          placeholder="Enter your password"
+          maxlength="15"
+        />
+      </div>
+      <br />
+
+      <div>
+        <input type="reset" />
+      </div>
+
+      <br />
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>

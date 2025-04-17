@@ -45,7 +45,7 @@
 
     <button
       onclick="
-    cartQuantity += 5
+    cartQuantity += 5;
     console.log(`cart quantity: ${cartQuantity}`)"
     >
       +5
@@ -59,16 +59,24 @@
       Remove from cart
     </button>
 
-    
-  
     <button
-      oclick="
+      onclick="
     cartQuantity -= 2;
-    console.log(`cart quantity: ${cartQuantity}`);
+    console.log(`cart quantity: ${cartQuantity}`)"
+      ;
+    >
       -2
     </button>
-    
-    
+
+    <button
+      onclick="
+  cartQuantity -= 3;
+  console.log(`cart quantity: ${cartQuantity}`)"
+      ;
+    >
+      -3
+    </button>
+
     <button
       onclick="
       cartQuantity = 0;
