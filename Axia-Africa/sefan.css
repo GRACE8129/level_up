@@ -1,0 +1,88 @@
+body {
+  background-color: #9ade80;
+  margin: 0px;
+  padding: 0px;
+  font-size: sans-serif, Arial, Tahoma;
+}
+
+.general {
+  display: grid;
+  place-items: center; /* center both vertically and horizontally */
+  height: 100%;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.wel {
+  background-color: #070;
+  width: 100%;
+  border: 1px solid black;
+  height: 50px;
+}
+.come {
+  color: #fff;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.ru {
+  font-weight: bold;
+  color: #070;
+  font-size: 18px;
+}
+
+.page-body {
+  color: #060;
+  background-color: #fff;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.page-body p:hover {
+  background-color: #9ade80;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.thicker {
+  font-weight: bold;
+}
+
+.down {
+  background-color: #274;
+  width: 100%;
+  border: 1px outset #279a27;
+  padding: 3px 5px;
+}
+
+.load {
+  color: #fff;
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bottom {
+  display: grid;
+  place-items: center;
+  /* gap: 7px; */
+  background-color: #c7f2a3;
+  height: 100px;
+}
+
+/* .parent {
+  height: 500px;
+  aspect-ratio: 1/1;
+  background-color: red;
+  margin-bottom: 30px;
+}
+
+.child {
+  width: 50%;
+  height: 75%;
+  background-color: black;
+  color: white;
+} */
