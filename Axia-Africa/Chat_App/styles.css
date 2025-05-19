@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,400;0,500;1,700&family=Smythe&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+:root {
+  --background-color: #ffffff;
+  --secondary-color: #fb8e0b;
+  --text-color: #181c28;
+  --paragraph-color: #383a47;
+  --footer-color: #fd6003;
+  --star-color: #ffc947;
+  --container-width-lg: 86%;
+  --container-width-md: 92%;
+  --transition: all 0.5s ease-in-out;
+  --border-radius: 0.5rem;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 3rem;
+  line-height: 1.1;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* GENERAL STYLES */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+h1.header {
+  font-size: 3.125rem;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+p.big {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--paragraph-color);
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 1.2rem;
+
+  font-size: 1rem;
+  font-weight: 400px;
+
+  border: none;
+  border-radius: var(--border-radius);
+
+  cursor: pointer;
+
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--footer-color);
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  /* The maximum size of the content */
+  max-width: 2160px;
+}
+
+/* navigation bar */
+header {
+  width: 100vw;
+  height: 875px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* not necessary */
+nav {
+  height: 8%;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.nav_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.nav-links li a {
+  font-size: 1rem;
+  font-weight: 500;
+
+  color: var(--text-color);
+  transition: var(--transition);
+}
+
+.x-logo {
+  color: var(--footer-color);
+}
+
+.nav-links li a:hover {
+  color: var(--secondary-color);
+}
+
+.login_signup {
+  display: flex;
+  gap: 2rem;
+}
+
+.login {
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  color: var(--text-color);
+  transition: var(--transition);
+}
