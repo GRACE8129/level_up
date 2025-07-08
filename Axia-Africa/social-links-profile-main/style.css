@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,400;0,500;1,700&family=Smythe&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  overflow-x: hidden;
+  outline: 0;
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  width: 100wh;
+  background-color: hsl(0, 0%, 8%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.875 rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 70%;
+  background-color: hsl(0, 0%, 12%);
+  max-width: 2160;
+  border-radius: 1rem;
+}
+
+.upper {
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 12rem; */
+}
+
+.upper > img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.upper > h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.text {
+  color: white;
+  margin-top: 1.2rem;
+  font-size: 14px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+
+.lower > button {
+  margin-bottom: 0.8rem;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  padding: 10px 80px;
+  border: none;
+  border-radius: 0.4rem;
+}

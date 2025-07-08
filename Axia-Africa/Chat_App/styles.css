@@ -54,7 +54,12 @@ h1.header {
 p.big {
   font-size: 1rem;
   font-weight: 400;
+  line-height: 1.3;
   color: var(--paragraph-color);
+}
+
+img {
+  display: block;
 }
 
 .btn {
@@ -93,7 +98,7 @@ header {
   height: 875px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 8rem;
 }
 
 /* not necessary */
@@ -152,4 +157,143 @@ nav {
 
   color: var(--text-color);
   transition: var(--transition);
+}
+
+.login:hover {
+  color: var(--secondary-color);
+}
+.header_section {
+  width: 100%;
+  height: fit-content;
+}
+
+.header_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left_header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.left_header > button {
+  width: 220px;
+}
+
+.happy_customers {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.happy_customers .left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.left .images {
+  display: flex;
+}
+
+.left .images img {
+  width: 60.52px;
+  height: 60.52px;
+  border-radius: 50%;
+}
+
+.left .images img:nth-child(2) {
+  margin-left: -20px;
+  z-index: -1;
+}
+
+.left .images img:nth-child(3) {
+  margin-left: -20px;
+  z-index: -2;
+}
+.left_text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.left_text > h3 {
+  font-size: 30px;
+}
+
+.left_text > p {
+  font-size: 1rem;
+}
+
+.happy_customers > span {
+  height: 30px;
+  width: 0.15rem;
+  border-radius: 0.5rem;
+  background-color: var(--text-color);
+}
+.right {
+  height: fit-content;
+  /* padding-left: 1.1rem;
+  border-left: 3px solid var(--text-color); */
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.right > h3 {
+  font-size: 30px;
+}
+
+.star_rating {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.right .star_rating .star {
+  display: flex;
+  gap: 0.23rem;
+  align-items: center;
+}
+
+.right .star_rating > p {
+  font-size: 1rem;
+}
+
+.right_header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  overflow-y: visible;
+}
+
+.inner-circle {
+  width: 515px;
+  height: 539px;
+  /* background-color: white; */
+  border-radius: 50%;
+  border: 2px solid;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  position: absolute;
+}
+
+.middle {
+  object-fit: cover;
+  width: 549px;
+  height: 549px;
+  margin-top: 5rem;
+  /* top: 20px; */
+  position: absolute;
+}
+
+.main-image {
+  height: 965px;
+  width: 668px;
+  position: absolute;
 }

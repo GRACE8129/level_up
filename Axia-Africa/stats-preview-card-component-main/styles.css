@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(233, 47%, 7%);
+  overflow-y: scroll;
+}
+
+.outer {
+  max-width: 1440px;
+  border-radius: 0.5rem;
+  /* overflow: hidden; */
+  width: 80%;
+  height: 70%;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+}
+
+.right {
+  padding: 5.5rem;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.text > h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text > h1 > span {
+  color: hsl(277, 64%, 61%);
+}
+
+.text > p {
+  color: white;
+  font-size: 12px;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.bottom-text {
+  display: flex;
+  gap: 3rem;
+}
+
+.bottom-text > div > h1 {
+  color: white;
+  margin-bottom: 6px;
+  font-size: 1.5rem;
+}
+
+.bottom-text > div > p {
+  color: white;
+  font-size: 11px;
+}
+
+.left {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.left > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: hsl(277, 64%, 61%);
+  opacity: 1;
+  mix-blend-mode: multiply;
+}
+
+@media (max-width: 768px) {
+  .outer {
+    /* height: auto; */
+  }
+  .inner {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .right {
+    padding: 5.5rem;
+    background-color: hsl(244, 38%, 16%);
+  }
+
+  .text > h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .text > h1 > span {
+    color: hsl(277, 64%, 61%);
+  }
+
+  .text > p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .bottom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottom-text > div > h1 {
+    color: white;
+    margin-bottom: 6px;
+    font-size: 3rem;
+  }
+
+  .bottom-text > div > p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .left {
+    height: 320px;
+    min-height: 250px;
+    width: 100%;
+    position: relative;
+  }
+
+  .left > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
